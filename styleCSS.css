@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url("./images/american-flag.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer {
+    position: relative;
+    bottom: 0%;
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 900;
+    background-color: rgba(0,0,0,.4);
+    border-top: 1px solid black;
+    color: whitesmoke;
+} 
+/* Header Settings */ 
+.header {
+    position: sticky;
+    top: 0%;
+    max-height: 150px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0,0,0,.4);
+}
+.header a {
+    padding: 15px;
+}
+/* Flex Container Settings */
+.flex-container {
+    display: flex;
+    background-color: rgba(0,0,0,.4);
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    align-content: space-between;
+    padding: 0%;
+}
+
+/* General Flex-box settings */
+.flex-box {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+    border-bottom: 3px black solid;
+}
+.flex-item-header {
+    padding-top: 5%;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(255,255,255);
+    font-weight: 900;
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+    border-bottom: none;
+}
+.flex-container #picobox { 
+    padding: 25px;
+    background-image: url("./images/raspberryPiLogo.jpg");
+    background-position: center;
+    overflow: auto;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: nowrap;
+}
+#picobox p {
+    color: aquamarine;
+    font-size: larger;
+    width: fit-content;
+    margin: auto;
+
+}
+.flex-container #github p {
+    font-size: 25px;
+    color: aquamarine
+}
+.flex-container #contactform {
+    justify-content: center;
+    align-items: flex-start;
+}
+#github {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#contactform {
+    height: 450px;
+}
+.flex-container .internetitem {
+    text-align: center;
+}
+#internetfavs {
+    flex-direction: column;
+    height: 500px;
+    overflow: auto;
+    align-content: space-between;
+    flex-wrap: nowrap;
+}
+#internetfavs p {
+    color: aquamarine;
+    font-size: larger;
+}
+#internetfavs .internetitem{
+    margin: 12px;
+    padding: 12px;
+}
+form p {
+    color: aqua;
+    font-size: xx-large;
+}
+/* Photo Resize Settings */
+.resize {
+    width: 100px;
+    height: auto;
+}
+.resize {
+    height: 100px;
+    width: auto;
+    border-radius: 25%;
+}
+.resize2 {
+    width: 250px;
+    height: auto;
+}
+.resize2 {
+    height: 250px;
+    width: auto;
+    border-radius: 25%;
+    margin: auto;
+}
